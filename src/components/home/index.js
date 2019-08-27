@@ -4,7 +4,7 @@ import Slide from './slide';
 
 class Home extends Component {
   render() {
-    return(
+    return (
       <React.Fragment>
         <div className="home">
           <Slide />

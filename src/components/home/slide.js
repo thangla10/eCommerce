@@ -21,7 +21,7 @@ class Slide extends Component {
                       <div className="home_items">
                         <div className="row">
                           <div className="col-sm-3 offset-lg-1">
-                            <div className="home_item_side"><a href="product.html"><img src={home_1} alt="" /></a></div>
+                            <div className="home_item_side"><a href=""><img src={home_1} alt="" /></a></div>
                           </div>
                           <div className="col-lg-4 col-md-6 col-sm-8 offset-sm-2 offset-md-0">
                             <div className="product home_item_large">
@@ -35,7 +35,7 @@ class Slide extends Component {
                             </div>
                           </div>
                           <div className="col-sm-3">
-                            <div className="home_item_side"><a href="product.html"><img src={home_3} alt="" /></a></div>
+                            <div className="home_item_side"><a href=""><img src={home_3} alt="" /></a></div>
                           </div>
                         </div>
                       </div>
@@ -57,7 +57,7 @@ class Slide extends Component {
                       <div className="home_items">
                         <div className="row">
                           <div className="col-sm-3 offset-lg-1">
-                            <div className="home_item_side"><a href="product.html"><img src={home_3} alt="" /></a></div>
+                            <div className="home_item_side"><a href=""><img src={home_3} alt="" /></a></div>
                           </div>
                           <div className="col-lg-4 col-md-6 col-sm-8 offset-sm-2 offset-md-0">
                             <div className="product home_item_large">
@@ -71,7 +71,7 @@ class Slide extends Component {
                             </div>
                           </div>
                           <div className="col-sm-3">
-                            <div className="home_item_side"><a href="product.html"><img src={home_2} alt="" /></a></div>
+                            <div className="home_item_side"><a href=""><img src={home_2} alt="" /></a></div>
                           </div>
                         </div>
                       </div>
@@ -93,7 +93,7 @@ class Slide extends Component {
                       <div className="home_items">
                         <div className="row">
                           <div className="col-sm-3 offset-lg-1">
-                            <div className="home_item_side"><a href="product.html"><img src={home_3} alt="" /></a></div>
+                            <div className="home_item_side"><a href=""><img src={home_3} alt="" /></a></div>
                           </div>
                           <div className="col-lg-4 col-md-6 col-sm-8 offset-sm-2 offset-md-0">
                             <div className="product home_item_large">
@@ -107,7 +107,7 @@ class Slide extends Component {
                             </div>
                           </div>
                           <div className="col-sm-3">
-                            <div className="home_item_side"><a href="product.html"><img src={home_1} alt="" /></a></div>
+                            <div className="home_item_side"><a href=""><img src={home_1} alt="" /></a></div>
                           </div>
                         </div>
                       </div>
