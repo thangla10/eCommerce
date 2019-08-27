@@ -6,16 +6,17 @@ import {BrowserRouter,Switch,Route} from 'react-router-dom';
 import Header from './components/include/header';
 import Menu from './components/include/menu';
 import Footer from './components/include/footer';
+import Home from './components/home/index';
 
 class App extends Component {
   render() {
     return(
       <React.Fragment>
         <BrowserRouter>
-          <Header />
           <Menu />
+          <Header />
           <Switch>
-
+            <Home />
           </Switch>
           <Footer />
         </BrowserRouter>
