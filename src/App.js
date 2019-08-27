@@ -5,6 +5,7 @@ import './assets/styles/responsive.css';
 import {BrowserRouter,Switch,Route} from 'react-router-dom';
 import Header from './components/include/header';
 import Menu from './components/include/menu';
+import Footer from './components/include/footer';
 
 class App extends Component {
   render() {
@@ -16,6 +17,7 @@ class App extends Component {
           <Switch>
 
           </Switch>
+          <Footer />
         </BrowserRouter>
       </React.Fragment>
     );

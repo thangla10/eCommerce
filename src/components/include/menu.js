@@ -32,10 +32,10 @@ class Menu extends Component {
           </div>
           <div className="menu_social">
             <ul className="menu_social_list d-flex flex-row align-items-start justify-content-start">
-              <li><a href="#"><i className="fa fa-facebook" aria-hidden="true" /></a></li>
-              <li><a href="#"><i className="fa fa-youtube-play" aria-hidden="true" /></a></li>
-              <li><a href="#"><i className="fa fa-google-plus" aria-hidden="true" /></a></li>
-              <li><a href="#"><i className="fa fa-instagram" aria-hidden="true" /></a></li>
+              <li><a href="#"><i class="fab fa-facebook-f" aria-hidden="true" /></a></li>
+              <li><a href="#"><i class="fab fa-youtube" aria-hidden="true" /></a></li>
+              <li><a href="#"><i class="fab fa-google-plus-g" aria-hidden="true" /></a></li>
+              <li><a href="#"><i class="fab fa-instagram" aria-hidden="true" /></a></li>
             </ul>
           </div>
         </div>
