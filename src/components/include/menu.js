@@ -9,7 +9,7 @@ class Menu extends Component {
       <div className="menu">
         {/* Search */}
         <div className="menu_search">
-          <form action="#" id="menu_search_form" className="menu_search_form">
+          <form action="" id="menu_search_form" className="menu_search_form">
             <input type="text" className="search_input" placeholder="Search Item" required="required" />
             <button className="menu_search_button"><img src={searchIcon} alt="" /></button>
           </form>
@@ -17,11 +17,11 @@ class Menu extends Component {
         {/* Navigation */}
         <div className="menu_nav">
           <ul>
-            <li><a href="#">Shirts</a></li>
-            <li><a href="#">Pants</a></li>
-            <li><a href="#">Shoes</a></li>
-            <li><a href="#">Accessories</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="">Shirts</a></li>
+            <li><a href="">Pants</a></li>
+            <li><a href="">Shoes</a></li>
+            <li><a href="">Accessories</a></li>
+            <li><a href="">Contact</a></li>
           </ul>
         </div>
         {/* Contact Info */}
@@ -32,10 +32,10 @@ class Menu extends Component {
           </div>
           <div className="menu_social">
             <ul className="menu_social_list d-flex flex-row align-items-start justify-content-start">
-              <li><a href="#"><i class="fab fa-facebook-f" aria-hidden="true" /></a></li>
-              <li><a href="#"><i class="fab fa-youtube" aria-hidden="true" /></a></li>
-              <li><a href="#"><i class="fab fa-google-plus-g" aria-hidden="true" /></a></li>
-              <li><a href="#"><i class="fab fa-instagram" aria-hidden="true" /></a></li>
+              <li><a href=""><i class="fab fa-facebook-f" aria-hidden="true" /></a></li>
+              <li><a href=""><i class="fab fa-youtube" aria-hidden="true" /></a></li>
+              <li><a href=""><i class="fab fa-google-plus-g" aria-hidden="true" /></a></li>
+              <li><a href=""><i class="fab fa-instagram" aria-hidden="true" /></a></li>
             </ul>
           </div>
         </div>
