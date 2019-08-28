@@ -11,17 +11,17 @@ import Home from './components/home/index';
 class App extends Component {
   render() {
     return (
-      <React.Fragment>
-        <BrowserRouter>
+      <BrowserRouter>
+        <React.Fragment>
           <Menu />
           <Header />
           <Switch>
-            <Home />
+              <Route exact path="/" component={Home} />
           </Switch>
           <Footer />
-        </BrowserRouter>
-      </React.Fragment>
-    );
+        </React.Fragment>
+      </BrowserRouter>
+    )
   }
 }
 
