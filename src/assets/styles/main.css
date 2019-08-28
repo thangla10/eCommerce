@@ -22,7 +22,12 @@
 1. Fonts
 ***********/
 
-
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
+@font-face
+{
+    font-family: 'Futura';
+    src: url('../fonts/FuturaLT-Book.ttf')  format('truetype');
+}
 
 /*********************************
 2. Body and some general stuff
