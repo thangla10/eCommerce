@@ -6,8 +6,8 @@ import logo_2 from '../../assets/images/logo_2.png';
 class Footer extends Component {
   render() {
     return (
-      <div class="super_container_inner">
-        <div class="super_overlay"></div>
+      <div className="super_container_inner">
+        <div className="super_overlay"></div>
         <footer className="footer">
           <div className="footer_content">
             <div className="container">
@@ -26,7 +26,11 @@ class Footer extends Component {
                       </div>
                     </Link>
                     <div className="footer_about_text">
-                      <p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse potenti. Fusce venenatis vel velit vel euismod.</p>
+                      <strong>SIMPLE but FASHIONABLE !</strong> <br/>
+                      <p>
+                        <i class="fas fa-map-marker-alt"/> 123 Le Duan street, Danang. <br/>
+                        <i class="fas fa-map-marker-alt"/> 69 Phan Chau Trinh street, Danang.
+                      </p>
                     </div>
                   </div>
                 </div>

@@ -37,6 +37,10 @@
     margin-top: 24px;
     padding-right: 50px;
 }
+.footer_about_text > strong
+{
+    font-size: 20px;
+}
 .footer_menu
 {
     padding-top: 64px;

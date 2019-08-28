@@ -7,8 +7,8 @@ import safe_shop from '../../assets/images/icon_2.svg';
 class Feature extends Component {
   render() {
     return(
-      <div class="super_container_inner">
-        <div class="super_overlay"></div>
+      <div className="super_container_inner">
+        <div className="super_overlay"></div>
         <div className="features">
           <div className="container">
             <div className="row">
