@@ -2,7 +2,7 @@
 {
     width: 100%;
     background: #FFFFFF;
-    padding-bottom: 71px;;
+    padding-bottom: 41px;;
 }
 .boxes > .container
 {
@@ -73,8 +73,8 @@
     background: #2fce98;
     border-radius: 2px;
     z-index: 1;
-    font-family: 'FontAwesome';
-    content: 'Go';
+    font-family: FontAwesome;
+    content: '\f105';
     font-size: 18px;
     color: #FFFFFF;
     line-height: 49px;
