@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../../assets//styles/menu.css';
+import '../../assets//styles/include/menu.css';
 import searchIcon from '../../assets/images/search.png';
 import phoneIcon from '../../assets/images/phone.svg';
 

@@ -181,7 +181,7 @@
 .rating_r_5 i:nth-child(5)::before{content: "\f005";}
 .product_price
 {
-    font-size: 25px;
+    font-size: 30px;
     color: #4a4a4a;
     font-weight: 500;
     margin-top: 19px;
@@ -378,88 +378,88 @@
     border-color: #2fce98;
     color: #2fce98;
 }
-
-/*********************************
-6. Products
-*********************************/
-
-.products
+.home_slider_nav
 {
-    background: #FFFFFF;
-    padding-top: 72px;
-    padding-bottom: 82px;
-}
-.page_nav_row
-{
-    margin-top: 35px;
-}
-.page_nav
-{
-    width: 100%;
-}
-.page_nav ul
-{
-    display: block;
-}
-.page_nav ul li:not(:last-of-type)::after
-{
-    display: inline-block;
-    font-size: 18px;
-    font-weight: 700;
-    color: #4a4a4a;
-    content: '/';
-    margin-left: 14px;
-    margin-right: 14px;
-}
-.page_nav ul li a
-{
-    font-size: 18px;
-    font-weight: 700;
-    color: #4a4a4a;
-}
-.page_nav ul li.active a,
-.page_nav ul li a:hover
-{
-    color: #2fce98;
-}
-.products_row
-{
-    margin-top: 32px;
-}
-.load_more_row
-{
-    margin-top: 20px;
-}
-.button
-{
-    width: 138px;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 44px;
     height: 44px;
-    background: #2fce98;
+    border: solid 2px #FFFFFF;
     border-radius: 2px;
+    z-index: 1;
     text-align: center;
-    border: solid 2px #2fce98;
+    cursor: pointer;
     -webkit-transition: all 200ms ease;
     -moz-transition: all 200ms ease;
     -ms-transition: all 200ms ease;
     -o-transition: all 200ms ease;
     transition: all 200ms ease;
 }
-.button a
+.home_slider_nav:hover
 {
-    display: block;
-    width: 100%;
-    height: 100%;
-    font-size: 18px;
-    font-weight: 700;
-    color: #FFFFFF;
-    text-transform: uppercase;
+    border-color: #2fce98;
+}
+.home_slider_nav i
+{
     line-height: 40px;
+    color: #FFFFFF;
+    -webkit-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -ms-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
 }
-.button:hover
+.home_slider_nav:hover i
 {
-    background: transparent;
+    color: #2fce98;
 }
-.button:hover a
+.home_slider_nav_prev
 {
+    left: 46px;
+}
+.home_slider_nav_next
+{
+    right: 46px;
+}
+.home_slider_dots_container
+{
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    bottom: 72px;
+    z-index: 1;
+}
+.home_slider_custom_dot
+{
+    width: 32px;
+    height: 32px;
+    border: solid 2px #FFFFFF;
+    border-radius: 2px;
+    text-align: center;
+    line-height: 30px;
+    color: #FFFFFF;
+    cursor: pointer;
+    -webkit-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -ms-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+}
+.home_slider_custom_dot:not(:last-child)
+{
+    margin-right: 8px;
+}
+.home_slider_custom_dot:hover
+{
+    border-color: #2fce98;
     color: #2fce98;
 }

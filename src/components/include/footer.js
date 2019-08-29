@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import '../../assets/styles/footer.css';
+import '../../assets/styles/include/footer.css';
 import logo_2 from '../../assets/images/logo_2.png';
 
 class Footer extends Component {
