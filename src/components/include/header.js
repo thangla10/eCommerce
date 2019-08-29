@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import '../../assets/styles/include/header.css';
+import '../../assets/styles/include/responsive.css';
 import logo_1 from '../../assets/images/logo_1.png';
 import searchIcon from '../../assets/images/search.png';
 import userIcon from '../../assets/images/user.svg';
@@ -14,16 +14,14 @@ class Header extends Component {
         <header className="header">
           <div className="header_overlay" />
           <div className="header_content d-flex flex-row align-items-center justify-content-start">
-            <Link to="/">
-              <div className="logo">
-                <a href="">
-                  <div className="d-flex flex-row align-items-center justify-content-start">
-                    <div><img src={logo_1} alt="" /></div>
-                    <div>Simple Men</div>
-                  </div>
-                </a>
-              </div>
-            </Link>
+            <div className="logo">
+              <a href="/">
+                <div className="d-flex flex-row align-items-center justify-content-start">
+                  <div><img src={logo_1} alt="" /></div>
+                  <div>Simple Men</div>
+                </div>
+              </a>
+            </div>
             <div className="hamburger"><i className="fa fa-bars" aria-hidden="true" /></div>
             <nav className="main_nav">
               <ul className="d-flex flex-row align-items-start justify-content-start">
@@ -43,9 +41,8 @@ class Header extends Component {
                 </form>
               </div>
               {/* User */}
-              <div className="user"><a href=""><div><img src={userIcon} alt="" /></div></a></div>
-              {/* Cart */}
-              <div className="cart"><a href=""><div><img className="svg" src={cartIcon} alt="" /><div>1</div></div></a></div>
+              <div className="user"><a href="/user"><div><img src={userIcon} alt="" /></div></a></div>
+              <div className="cart"><a href="/cart"><div><img className="svg" src={cartIcon} alt="" /><div>1</div></div></a></div>
               {/* Phone */}
               <div className="header_phone d-flex flex-row align-items-center justify-content-start">
                 <div><div><img src={phoneIcon} alt="" /></div></div>

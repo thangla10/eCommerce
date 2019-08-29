@@ -64,7 +64,7 @@
 }
 .hamburger
 {
-    /*display: none;*/
+    display: none;
     margin-left: 25px;
     cursor: pointer;
     margin-top: 4px;
