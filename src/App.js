@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import './assets/styles/responsive.css';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Header from './components/include/header';
 import Menu from './components/include/menu';
@@ -16,7 +15,7 @@ class App extends Component {
           <Menu />
           <Header />
           <Switch>
-              <Route exact path="/" component={Home} />
+            <Route exact path="/" component={Home} />
           </Switch>
           <Footer />
         </React.Fragment>

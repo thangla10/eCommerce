@@ -1,23 +1,20 @@
 import React, { Component } from 'react';
-import '../../assets/styles/home.css';
+import '../../assets/styles/home/responsive.css';
 import Slide from './slide';
 import Feature from './feature';
 import Box from './boxes';
 import HotProducts from './hot-products';
+import Blog from './blog';
 
 class Home extends Component {
   render() {
     return (
       <React.Fragment>
-        <div className="super_container_inner">
-          <div className="super_overlay"></div>
-          <div className="home">
-            <Slide />
-          </div>
-        </div>
+        <Slide />
         <Feature />
         <Box />
         <HotProducts />
+        <Blog />
       </React.Fragment>
     )
   }
