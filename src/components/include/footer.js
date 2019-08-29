@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import '../../assets/styles/include/footer.css';
+import '../../assets/styles/include/responsive.css';
 import logo_2 from '../../assets/images/logo_2.png';
 
 class Footer extends Component {
@@ -15,16 +16,14 @@ class Footer extends Component {
                 {/* About */}
                 <div className="col-lg-4 footer_col">
                   <div className="footer_about">
-                    <Link to="/">
-                      <div className="footer_logo">
-                        <a href="">
-                          <div className="d-flex flex-row align-items-center justify-content-start">
-                            <div className="footer_logo_icon"><img src={logo_2} alt="" /></div>
-                            <div>Simple Men</div>
-                          </div>
-                        </a>
-                      </div>
-                    </Link>
+                    <div className="footer_logo">
+                      <a href="/">
+                        <div className="d-flex flex-row align-items-center justify-content-start">
+                          <div className="footer_logo_icon"><img src={logo_2} alt="" /></div>
+                          <div>Simple Men</div>
+                        </div>
+                      </a>
+                    </div>
                     <div className="footer_about_text">
                       <strong>SIMPLE but FASHIONABLE !</strong> <br/>
                       <p>

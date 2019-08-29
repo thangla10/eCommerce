@@ -6,6 +6,7 @@ import Header from './components/include/header';
 import Menu from './components/include/menu';
 import Footer from './components/include/footer';
 import Home from './components/home/index';
+import Cart from './components/cart/index';
 
 class App extends Component {
   render() {
@@ -16,6 +17,7 @@ class App extends Component {
           <Header />
           <Switch>
             <Route exact path="/" component={Home} />
+            <Route path="/cart" component={Cart} />
           </Switch>
           <Footer />
         </React.Fragment>

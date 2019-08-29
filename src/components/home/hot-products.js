@@ -124,7 +124,7 @@ class HotProducts extends Component {
               </div>
               <div className="row load_more_row">
                 <div className="col">
-                  <div className="button load_more ml-auto mr-auto"><a href="#">load more</a></div>
+                  <div className="load_more ml-auto mr-auto"><a href="#">load more</a></div>
                 </div>
               </div>
             </div>

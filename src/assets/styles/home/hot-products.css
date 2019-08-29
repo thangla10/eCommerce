@@ -45,7 +45,7 @@
 {
     margin-top: 20px;
 }
-.button
+.load_more
 {
     width: 138px;
     height: 44px;
@@ -59,7 +59,7 @@
     -o-transition: all 200ms ease;
     transition: all 200ms ease;
 }
-.button a
+.load_more a
 {
     display: block;
     width: 100%;
@@ -70,11 +70,11 @@
     text-transform: uppercase;
     line-height: 40px;
 }
-.button:hover
+.load_more:hover
 {
     background: transparent;
 }
-.button:hover a
+.load_more:hover a
 {
     color: #2fce98;
 }
